@@ -1,5 +1,6 @@
 /*******************************************************************
     A ChatGPT terminal for Minitel ESP32 ;-)
+    by goguelnikov
 
     Minitel ESP32 by iodeo
     https://hackaday.io/project/180473-minitel-esp32
@@ -9,7 +10,7 @@
     Minitel library by eserandour
     github: https://github.com/eserandour/Minitel1B_Hard
     
-    Project ChatGPT Client For ESP32 by Eric Nam
+    ChatGPT Client For ESP32 by Eric Nam
     github: https://github.com/0015/ChatGPT_Client_For_Arduino
 
  *******************************************************************/
