@@ -21,7 +21,7 @@
 #include <Minitel1B_Hard.h>  // see https://github.com/eserandour/Minitel1B_Hard
 
 // init Minitel ESP32
-Minitel minitel(Serial2);    // Le deuxième port série matériel de l'ATMega 1284P (RXD1 TXD1).
+Minitel minitel(Serial2);    // second serial port (RXD1 TXD1).
 #define TITRE "3615 ChatGPT"
 String texte = "";
 int nbCaracteres = 0;
@@ -36,7 +36,7 @@ String intro = "Moi - ";
 #define WIFI_PASSWORD "XXXXXXXXXXXXXX"
 
 // ChatGPT Token (Get from https://platform.openai.com/account/api-keys)
-#define GPT_TOKEN "sk-XXX"
+#define GPT_TOKEN "sk-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 
 WiFiClientSecure client;
 
